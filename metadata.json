@@ -1,0 +1,10 @@
+{
+  "name": "Clio de Rama",
+  "description": "Instrumentación digital automotriz de alta precisión y calidad OEM para iPhone y dispositivos móviles.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --font-gauge: 'Chakra Petch', 'Inter', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-display);
+    background-color: #06080b;
+    color: #e2e8f0;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+  }
+}
+
+.font-gauge {
+  font-family: var(--font-gauge);
+}
+
+.font-mono-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Automotive subtle glow effects */
+.glow-red {
+  box-shadow: 0 0 16px -2px rgba(230, 57, 70, 0.35);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 16px -2px rgba(56, 189, 248, 0.3);
+}
+
+.glow-green {
+  box-shadow: 0 0 16px -2px rgba(52, 211, 153, 0.3);
+}
+
+.needle-shadow {
+  filter: drop-shadow(0 0 4px rgba(255, 68, 68, 0.6));
+}
+
+/* Subtle scrollbar for history modal */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #0d1117;
+}
+::-webkit-scrollbar-thumb {
+  background: #232936;
+  border-radius: 2px;
+}
+
